@@ -1,13 +1,13 @@
 
-# ISS Real-Time Tracking System 🌍🚀
+# ISS Real-Time Tracking System
 
 This project provides a real-time tracking interface for the International Space Station (ISS) using Streamlit and Folium. It fetches the latest location of the ISS from the [Open Notify API](http://api.open-notify.org) and displays the position on an interactive map with automatic updates every 5 seconds.
 
 ## Features
 
-- 🌐 **Real-time updates**: Auto-refresh every 5 seconds to display the latest ISS position.
-- 🗺️ **Interactive Map**: Visualize the ISS location on an interactive Folium map.
-- 📡 **Open Notify API**: Uses a public API to fetch the current position of the ISS.
+- **Real-time updates**: Auto-refresh every 5 seconds to display the latest ISS position.
+- **Interactive Map**: Visualize the ISS location on an interactive Folium map.
+- **Open Notify API**: Uses a public API to fetch the current position of the ISS.
 
 ## Installation
 
@@ -92,6 +92,6 @@ st_folium(m, width=700, height=500)
 
 ## Future Improvements
 
-- 🛰️ Add historical tracking of the ISS path.
-- 🗓️ Display information about the next passes of the ISS over your location.
-- 📱 Optimize the interface for mobile devices.
+- Add historical tracking of the ISS path.
+- Display information about the next passes of the ISS over your location.
+- Optimize the interface for mobile devices.
